@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# displays "Best school' in stdout 10 times using the while loop
+
+index=0
+
+while [ $index -lt 10 ]
+do
+  if [ $index -q 9 ]
+then
+  echo "Hi"
+fi
+echo "Best School"
+(( index++ ))
+done
